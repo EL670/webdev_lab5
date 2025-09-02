@@ -4,27 +4,28 @@
   <meta charset = "utf-8">
   <title>Lab 5 - ELEE</title>
 </head>  
-<h1>Volunteer Form</h1>
-<form method ="post" action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-  <fieldset>
-    <legend>My Info</legend>
-    <label>First Name: <input type = "text" name = "first_name_field" placeholder = "First name"></label>
-    <p></p>
-    <label>Last Name: <input type = "text" name = "last_name_field" placeholder = "Last name"></label>
-    <p></p>
-    <label>Phone: <input type = "tel" id ="phone" name= "phone_field" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
-    <p></p>
-    <label>email: <input type ="email" name = "email_field" pattern ="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/"></label>
-    <p>Gender</p>
-    <label>Male: <input type ="radio" name = "gender_field" value ="Male"></label>
-    <label>Female: <input type ="radio" name ="gender_field" value = "Female"></label>
-    <p></p>
-    <select size = "2" name = "age_field">
-      <optgroup label = "Age:">
-        <option value = "Under_18">Under 18</option>
-        <option value = "Over_18">Over 18</option>
-      </optgroup>
-    </select>
+<body>
+  <h1>Volunteer Form</h1>
+  <form method ="post" action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+    <fieldset>
+      <legend>My Info</legend>
+      <label>First Name: <input type = "text" name = "first_name_field" placeholder = "First name"></label>
+      <p></p>
+      <label>Last Name: <input type = "text" name = "last_name_field" placeholder = "Last name"></label>
+      <p></p>
+      <label>Phone: <input type = "tel" id ="phone" name= "phone_field" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+      <p></p>
+      <label>email: <input type ="email" name = "email_field" pattern ="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/"></label>
+      <p>Gender</p>
+      <label>Male: <input type ="radio" name = "gender_field" value ="Male"></label>
+      <label>Female: <input type ="radio" name ="gender_field" value = "Female"></label>
+      <p></p>
+      <select size = "2" name = "age_field">
+        <optgroup label = "Age:">
+          <option value = "Under_18">Under 18</option>
+          <option value = "Over_18">Over 18</option>
+        </optgroup>
+      </select>
     </fieldset>
     <p></p>
     <fieldset>
@@ -45,7 +46,9 @@
     <div>   
       <input type ="hidden" name ="hidden_field" value = "E Lee">
     </div>  
-</form>
+  </form>
+</body>
+</html>
     
     
   
